@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [maytraining by packages]">
+  <test thread-count="5" name="com.training.test(failed)">
+    <classes>
+      <class name="com.training.test.ForgotUnPwdTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="ForgotUnPwd"/>
+        </methods>
+      </class> <!-- com.training.test.ForgotUnPwdTest -->
+      <class name="com.training.test.VerifyLoginSuccessTest">
+        <methods>
+          <include name="setup"/>
+          <include name="VerifyLoginSucess"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.training.test.VerifyLoginSuccessTest -->
+      <class name="com.training.test.SignInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyEnterUserNamePassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.training.test.SignInTest -->
+      <class name="com.training.test.SFDCLoginTest">
+        <methods>
+          <include name="SFDCLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.training.test.SFDCLoginTest -->
+      <class name="com.training.test.SelectUserMenuTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="SelectUserMenu"/>
+        </methods>
+      </class> <!-- com.training.test.SelectUserMenuTest -->
+      <class name="com.training.test.VerifyLoginFailureTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="VerifyLoginFailure"/>
+        </methods>
+      </class> <!-- com.training.test.VerifyLoginFailureTest -->
+    </classes>
+  </test> <!-- com.training.test(failed) -->
+</suite> <!-- Failed suite [maytraining by packages] -->

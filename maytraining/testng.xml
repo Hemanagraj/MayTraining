@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+ 
+ <test name="Sign In Test">
+    <classes>
+      <class name="com.training.test.SignInTest"/>
+    </classes>
+  </test>
+</suite>
+

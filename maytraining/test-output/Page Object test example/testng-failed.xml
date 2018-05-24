@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object test example]">
+  <test thread-count="5" name="Verify Login Failure(failed)">
+    <classes>
+      <class name="com.training.test.VerifyLoginFailureTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="tearDown"/>
+          <include name="VerifyLoginFailure"/>
+        </methods>
+      </class> <!-- com.training.test.VerifyLoginFailureTest -->
+    </classes>
+  </test> <!-- Verify Login Failure(failed) -->
+  <test thread-count="5" name="Forgot Password(failed)">
+    <classes>
+      <class name="com.training.test.ForgotPasswordTest">
+        <methods>
+          <include name="ForgotPassword"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.training.test.ForgotPasswordTest -->
+    </classes>
+  </test> <!-- Forgot Password(failed) -->
+  <test thread-count="5" name="Forgot Username Password(failed)">
+    <classes>
+      <class name="com.training.test.ForgotUnPwdTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="ForgotUnPwd"/>
+        </methods>
+      </class> <!-- com.training.test.ForgotUnPwdTest -->
+    </classes>
+  </test> <!-- Forgot Username Password(failed) -->
+  <test thread-count="5" name="SingIn(failed)">
+    <classes>
+      <class name="com.training.test.SignInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyEnterUserNamePassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.training.test.SignInTest -->
+    </classes>
+  </test> <!-- SingIn(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
